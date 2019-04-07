@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+float N1,N2,N3,N4,soma;
+
+printf ("Digite a nota das 4 provas :\n");
+scanf ("%f %f %f %f", &N1, &N2, &N3, &N4);
+
+soma = N1 + N2 + N3 + N4;
+
+
+printf ("Media : %.2f\n", soma / 4);
+
+if(media >= 6)
+{
+  printf ("Aprovado");
+}else
+{
+  printf ("Reprovado");
+}
+
+  return 0;
+}
